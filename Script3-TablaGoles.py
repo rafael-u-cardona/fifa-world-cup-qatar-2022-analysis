@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # LOAD DATA
 # ==================================================
 
-ruta = r"C:\Users\3195138\AnalisisDatos\open-data-master\data\matches\43\106.json"
+ruta = r"C:\data\matches\43\106.json"
 
 def cargar_datos (ruta):
 
@@ -251,4 +251,5 @@ for columna, titulo, archivo in graficos:
         columna,
         titulo,
         archivo
+
     )
